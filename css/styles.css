@@ -1,0 +1,209 @@
+/* --- GENEL ÖZELLİKLER --- */
+
+/* Body Tag'inin Özellikleri*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* --- HEADER ALANI --- */
+/* "logo" class'ının özellikleri */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* "logo-span" class'ının özellikleri */
+.header-logo-span {
+  color: #2e2f42;
+}
+
+/* "menu" class'ının özellikleri */
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* "menu" class'ının HOVER özellikleri */
+.menu:hover,
+.menu:focus {
+  color: #404bbf;
+}
+
+/* "adres" class'ının özellikleri */
+.adres {
+  font-style: normal;
+}
+
+/* "adres-link" class'ının özellikleri */
+.adres-link {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* "adres-link" class'ının HOVER özellikleri */
+.adres-link:hover,
+.adres-link:focus {
+  color: #404bbf;
+}
+
+/* --- SECTION 1 ALANI --- */
+/* "cta-section" class'ının özellikleri */
+.cta-section {
+  background-color: #2e2f42;
+}
+
+/* "cta-section" class'ındaki H1 tag'inin özellikleri */
+.cta-section > h1 {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+/* "cta-button" class'ının özellikleri */
+.cta-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+/* "cta-button" class'ının HOVER ve FOCUS özellikleri */
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* --- SECTION 2 ALANI */
+/* "vision-list-header" class'ının özellikleri */
+.vision-list-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* "vision-list-paragraph" class'ının özellikleri */
+.vision-list-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --- SECTION 3 ALANI --- */
+/* "team-section" class'ının özellikleri */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+/* "team-header" class'ının özellikleri */
+.team-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* "team-list" class'ının özellikleri */
+.team-list {
+  background-color: #ffffff;
+}
+
+/* "team-list-header" class'ının özellikleri */
+.team-list-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* "team-list-paragraph" class'ının özellikleri */
+.team-list-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --- SECTION 4 ALANI --- */
+/* "portfolio-header" class'ının özellikleri */
+.portfolio-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* "portfolio-list-header" class'ının özellikleri */
+.portfolio-list-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* "portfolio-list-paragraph" class'ının özellikleri */
+.portfolio-list-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --- FOOTER BÖLÜMÜ */
+/* "footer" class'ının özellikleri */
+.footer {
+  background-color: #2e2f42;
+}
+
+/* "footer-logo" class'ının özellikleri */
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/* "footer-logo-span" class'ının özellikleri */
+.footer-logo-span {
+  color: #f4f4fd;
+}
+
+/* "footer-paragraph" class'ının özellikleri */
+.footer-paragraph {
+  line-height: 24px;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
