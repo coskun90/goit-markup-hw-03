@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GoIT HomeWork 2</title>
+    <title>GoIT HW 03</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -15,201 +15,213 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <!-- HEADER ALANI -->
-      <nav>
-        <a class="header-logo" href="./index.html"
-          >Web<span class="header-logo-span">Studio</span></a
-        >
-        <ul>
-          <li>
-            <a class="menu" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="menu" href="">Portfolio</a>
-          </li>
-          <li>
-            <a class="menu" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="adres">
-        <ul>
-          <li>
-            <a class="adres-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="adres-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="body-header">
+      <div class="container">
+        <nav class="head-navigation">
+          <a href="./index.html" class="head-logo">
+            WEB<span class="span-logo">Studio</span></a
+          >
+          <ul class="container-pages">
+            <li><a href="./index.html" class="header-nav">Studio</a></li>
+            <li><a href="" class="header-nav">Portfolio</a></li>
+            <li><a href="" class="header-nav">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="container-address">
+            <li>
+              <a href="mailto:info@devstudio.com" class="header-b"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="header-b"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
-
     <main>
-      <section class="cta-section">
-        <!-- SECTION 1 ALANI -->
-        <h1 class="cta-header">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button class="cta-button" type="button">Order Service</button>
+      <section class="section-one">
+        <div class="container containerone">
+          <h1 class="one-maintitle">Effective Solutions for Your Business</h1>
+          <button
+            class="one-bttn"
+            type="button"
+            style="font-family: 'Roboto', sans-serif"
+          >
+            Order Service
+          </button>
+        </div>
       </section>
 
-      <section class="vision-section">
-        <!-- SECTION 2 ALANI -->
-        <h2 class="vision-header">Our features</h2>
-        <ul>
-          <li>
-            <h3 class="vision-list-header">Strategy</h3>
-            <p class="vision-list-paragraph">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="vision-list-header">Punctuality</h3>
-            <p class="vision-list-paragraph">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="vision-list-header">Diligence</h3>
-            <p class="vision-list-paragraph">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="vision-list-header">Technologies</h3>
-            <p class="vision-list-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <!-- Our Future Content -->
+
+      <section class="sectiontwo">
+        <div class="container sectiontwo-list">
+          <h2 class="visually-hidden">Our Futures</h2>
+          <ul class="container-future">
+            <li class="two-list">
+              <h3 class="htree">Strategy</h3>
+              <p class="two-paragraph">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="two-list">
+              <h3 class="htree">Punctuality</h3>
+              <p class="two-paragraph">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="two-list">
+              <h3 class="htree">Diligence</h3>
+              <p class="two-paragraph">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="two-list">
+              <h3 class="htree">Technologies</h3>
+              <p class="two-paragraph">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="team-section">
-        <!-- SECTION 3 ALANI -->
-        <h2 class="team-header">Our Team</h2>
-        <ul>
-          <li class="team-list">
-            <img
-              style="width: 264px"
-              src="./images/team-1.jpg"
-              alt="Mark Guerrero"
-            />
-            <h3 class="team-list-header">Mark Guerrero</h3>
-            <p class="team-list-paragraph">Product Designer</p>
-          </li>
-          <li class="team-list">
-            <img
-              style="width: 264px"
-              src="./images/team-2.jpg"
-              alt="Tom Ford"
-            />
-            <h3 class="team-list-header">Tom Ford</h3>
-            <p class="team-list-paragraph">Frontend Developer</p>
-          </li>
+      <!-- Our Team Content -->
 
-          <li class="team-list">
-            <img
-              style="width: 264px"
-              src="./images/team-3.jpg"
-              alt="Camila Garcia"
-            />
-            <h3 class="team-list-header">Camila Garcia</h3>
-            <p class="team-list-paragraph">Marketing</p>
-          </li>
-          <li class="team-list">
-            <img
-              style="width: 264px"
-              src="./images/team-4.jpg"
-              alt="Daniel Wilson"
-            />
-            <h3 class="team-list-header">Daniel Wilson</h3>
-            <p class="team-list-paragraph">UI Designer</p>
-          </li>
-        </ul>
+      <section class="section-three">
+        <div class="container">
+          <h2 class="three-title">Our Team</h2>
+          <ul class="container-team">
+            <li class="three-list">
+              <img
+                src="./images/img-mark.jpg"
+                width="264"
+                alt="Mark Guerrero"
+              />
+              <div class="div-team">
+                <h3 class="three-titleli">Mark Guerrero</h3>
+                <p class="three-paragraph">Product Designer</p>
+              </div>
+            </li>
+            <li class="three-list">
+              <img src="./images/img-tom.jpg" width="264" alt="Tom Ford" />
+              <div class="div-team">
+                <h3 class="three-titleli">Tom Ford</h3>
+                <p class="three-paragraph">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="three-list">
+              <img
+                src="./images/img-camila.jpg"
+                width="264"
+                alt="Camila Garcia"
+              />
+              <div class="div-team">
+                <h3 class="three-titleli">Camila Garcia</h3>
+                <p class="three-paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="three-list">
+              <img
+                src="./images/img-daniel.jpg"
+                width="264"
+                alt="Daniel Wilson"
+              />
+              <div class="div-team">
+                <h3 class="three-titleli">Daniel Wilson</h3>
+                <p class="three-paragraph">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="portfolio-section">
-        <!-- SECTION 4 ALANI -->
-        <h2 class="portfolio-header">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/portfolio-1.jpg" alt="Banking App" width="360" />
-            <h3 class="portfolio-list-header">Banking App</h3>
-            <p class="portfolio-list-paragraph">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio-2.jpg"
-              alt="Cashless Payment"
-              width="360"
-            />
-            <h3 class="portfolio-list-header">Cashless Payment</h3>
-            <p class="portfolio-list-paragraph">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio-3.jpg"
-              alt="Meditation App"
-              width="360"
-            />
-            <h3 class="portfolio-list-header">Meditation App</h3>
-            <p class="portfolio-list-paragraph">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio-4.jpg"
-              alt="Taxi Service"
-              width="360"
-            />
-            <h3 class="portfolio-list-header">Taxi Service</h3>
-            <p class="portfolio-list-paragraph">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio-5.jpg"
-              alt="Screen Illustrations"
-              width="360"
-            />
-            <h3 class="portfolio-list-header">Screen Illustrations</h3>
-            <p class="portfolio-list-paragraph">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio-6.jpg"
-              alt="Online Courses"
-              width="360"
-            />
-            <h3 class="portfolio-list-header">Online Courses</h3>
-            <p class="portfolio-list-paragraph">Marketing</p>
-          </li>
-        </ul>
+      <!-- Our Portfolio Content -->
+
+      <section class="section-four">
+        <div class="container">
+          <h2 class="four-title">Our Portfolio</h2>
+          <ul class="sectionfour-ulist">
+            <li class="four-list">
+              <img src="./images/img-01.jpg" width="360" alt="Banking App" />
+              <div class="four-div">
+                <h3 class="four-titleli">Banking App</h3>
+                <p class="four-paragraph">App</p>
+              </div>
+            </li>
+            <li class="four-list">
+              <img
+                src="./images/img-02.jpg"
+                width="360"
+                alt="Cashless Payment"
+              />
+              <div class="four-div">
+                <h3 class="four-titleli">Cashless Payment</h3>
+                <p class="four-paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="four-list">
+              <img src="./images/img-03.jpg" width="360" alt="Meditation App" />
+              <div class="four-div">
+                <h3 class="four-titleli">Meditation App</h3>
+                <p class="four-paragraph">App</p>
+              </div>
+            </li>
+            <li class="four-list">
+              <img src="./images/img-04.jpg" width="360" alt="Taxi Service" />
+              <div class="four-div">
+                <h3 class="four-titleli">Taxi Service</h3>
+                <p class="four-paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="four-list">
+              <img
+                src="./images/img-05.jpg"
+                width="360"
+                alt="Screen Illustrations"
+              />
+              <div class="four-div">
+                <h3 class="four-titleli">Screen Illustrations</h3>
+                <p class="four-paragraph">Design</p>
+              </div>
+            </li>
+            <li class="four-list">
+              <img src="./images/img-06.jpg" width="360" alt="Online Courses" />
+              <div class="four-div">
+                <h3 class="four-titleli">Online Courses</h3>
+                <p class="four-paragraph">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <!-- FOOTER ALANI -->
-      <a class="footer-logo" href="./index.html"
-        >Web<span class="footer-logo-span">Studio</span></a
-      >
-      <p class="footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+    <footer class="section-footer">
+      <div class="container container-footer">
+        <a href="./index.html" class="footer-logo">
+          WEB<span class="footer-span">Studio</span></a
+        >
+        <p class="footer-paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
